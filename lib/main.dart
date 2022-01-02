@@ -17,7 +17,7 @@ class XylophoneApp extends StatelessWidget {
         style:TextButton.styleFrom(backgroundColor:color),
         onPressed: (){
           playsound(soundnumber);
-        },child: Text("$note",style: TextStyle(color: Colors.white,fontSize: 18,fontWeight: FontWeight.bold
+        },child: Text("$note",style: TextStyle(color: Colors.white,fontSize: 20,fontWeight: FontWeight.bold
       ),),
 
       ),
